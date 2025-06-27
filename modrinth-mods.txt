@@ -1,5 +1,5 @@
-# https://modrinth.com/mod/fabric-api
-fabric-api:0.116.4+1.21.1
+# List of general Modrinth Mods
+# Minecraft Version: 1.21.1
 
-# https://modrinth.com/mod/advancement-plaques
-advancement-plaques:1.6.8
+fabric-api:0.116.4+1.21.1
+dungeon-difficulty:3.3.5+1.21.1
