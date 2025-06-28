@@ -1,6 +1,6 @@
-name = "Clucktopia"
+name = "clucktopia-server"
 author = "iveahugeship"
-version = "2.0.0-alpha.1"
+version = "2.0.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
@@ -9,5 +9,5 @@ hash-format = "sha256"
 hash = "50e7aef24153ad069d6748c4bf498d3cca0b7812b9423f0c6775268ef574a58c"
 
 [versions]
-fabric = "0.16.14"
 minecraft = "1.21.1"
+fabric = "0.16.14"
