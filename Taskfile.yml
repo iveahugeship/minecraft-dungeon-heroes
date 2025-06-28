@@ -5,10 +5,40 @@ version: '3'
 vars: {}
 
 tasks:
-  build:
+  build-server:
+    desc: Build the server modpack
+    dir: server/
     cmds:
-      - bin/packwiz refresh
+      - '{{ .ROOT_DIR }}/bin/packwiz refresh'
 
-  update:
+  build-client:
+    desc: Build the client modpack
+    dir: client/
     cmds:
-      - bin/packwiz update --all
+      - '{{ .ROOT_DIR }}/bin/packwiz refresh'
+
+  build-all:
+    desc: Build both server and client modpacks
+    cmds:
+      - task: build-server
+      - task: build-client
+
+  update-server:
+    desc: Update the server modpack
+    dir: server/
+    cmds:
+      - '{{ .ROOT_DIR }}/bin/packwiz update --all'
+      - task: build-server
+
+  update-client:
+    desc: Update the client modpack
+    dir: client/
+    cmds:
+      - '{{ .ROOT_DIR }}/bin/packwiz update --all'
+      - task: build-client
+
+  update-all:
+    desc: Update both server and client modpacks
+    cmds:
+      - task: update-server
+      - task: update-client
