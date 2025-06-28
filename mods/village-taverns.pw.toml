@@ -1,0 +1,13 @@
+name = "Village Taverns (RPG Series)"
+filename = "village_taverns-1.0.6+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/bj4a8NjJ/versions/BZrHsYGn/village_taverns-1.0.6%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "f66266339fad24f5c34243b5ae88e720355de40f5637499a429d8f5a3f5a8f87ec3fcf81954de63927e2e4f509b6d065960216a0d78fcad3be812d40a8ab25f0"
+
+[update]
+[update.modrinth]
+mod-id = "bj4a8NjJ"
+version = "BZrHsYGn"
