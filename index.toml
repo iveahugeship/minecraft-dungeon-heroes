@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".packwizigonre"
+hash = "7cda0972b786e867eb7ecf83b03bf77b86d516d3ed8c46e48c383ea0dabec924"
+
+[[files]]
+file = "Taskfile.yml"
+hash = "810ac82a398259f5e19a47680d047d536981c7158e0ebe26846de4d87bb6bd51"
+
+[[files]]
 file = "config/archers/effects.json"
 hash = "eac16ab70581aad79f7174aa8c1064af0cecfd1ef90ab6dd7742ebc1eada367b"
 
