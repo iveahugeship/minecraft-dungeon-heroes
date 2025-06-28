@@ -5,6 +5,10 @@ version: '3'
 vars: {}
 
 tasks:
-  refresh:
+  build:
     cmds:
       - bin/packwiz refresh
+
+  update:
+    cmds:
+      - bin/packwiz update --all
