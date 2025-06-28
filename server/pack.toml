@@ -1,6 +1,6 @@
 name = "clucktopia-server"
 author = "iveahugeship"
-version = "2.0.0"
+version = "2.0.0-alpha.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
