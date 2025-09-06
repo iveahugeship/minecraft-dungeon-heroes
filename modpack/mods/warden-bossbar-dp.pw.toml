@@ -1,0 +1,13 @@
+name = "Warden Bossbar"
+filename = "warden-bossbar-1.21.4-1.0.0.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/QnnEUXoA/versions/BZEJDbF8/warden-bossbar-1.21.4-1.0.0.zip"
+hash-format = "sha512"
+hash = "ca0f42e9deca1ca7d639cf1cfa5fdbd583929c8bbab065ccfeeda4f369186e9b666162e3f65cadd48f693207b169f7181cf90d45a433de3a988fdbcec3bb19d1"
+
+[update]
+[update.modrinth]
+mod-id = "QnnEUXoA"
+version = "BZEJDbF8"

@@ -1,0 +1,13 @@
+name = "McAlive:LeafyLeaves"
+filename = "McAlive_LeafyLeaves(height).zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/9EWHCjhD/versions/mrx0lanv/McAlive_LeafyLeaves%28height%29.zip"
+hash-format = "sha512"
+hash = "935b32cce95af8421dbc33b8f6d672be987d9e80e5742654bb0963f86a66e227c912bb15d1fb90c7052bdf954c0183b85021902903fc086fda8b4ae033c1447c"
+
+[update]
+[update.modrinth]
+mod-id = "9EWHCjhD"
+version = "mrx0lanv"

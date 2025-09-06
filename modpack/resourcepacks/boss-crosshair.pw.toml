@@ -1,0 +1,13 @@
+name = "Boss Crosshair"
+filename = "§eBoss §9Crosshair [1.21].zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/YYDu8DrJ/versions/rNzoio6C/%C2%A7eBoss%20%C2%A79Crosshair%20%5B1.21%5D.zip"
+hash-format = "sha512"
+hash = "b525ec20cf96e45f590a2b9b723f4375f61448bffbcd60d1b7692890a11f61c9994f1a3cf99055fe25aa59d6291eafb691b6610fa7008b61b591336bdb126f03"
+
+[update]
+[update.modrinth]
+mod-id = "YYDu8DrJ"
+version = "rNzoio6C"

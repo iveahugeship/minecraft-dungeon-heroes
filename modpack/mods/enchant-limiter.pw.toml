@@ -1,0 +1,13 @@
+name = "Enchant Limiter (RPG Tweaks)"
+filename = "enchant_limiter-fabric-1.0.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/MhfKWFVm/versions/H9D3FJgq/enchant_limiter-fabric-1.0.6.jar"
+hash-format = "sha512"
+hash = "d38993053f9430e803b6527c2ec91948631eaba0b9254d8edf85b960aa63f9cbc4d01711d93491b3eeff3d781c646032f55faeb2bb61251da5f8342dcda30556"
+
+[update]
+[update.modrinth]
+mod-id = "MhfKWFVm"
+version = "H9D3FJgq"

@@ -1,0 +1,13 @@
+name = "Armory (RPG Series)"
+filename = "armory-1.0.3+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/PJvJUdGw/versions/zltYV03a/armory-1.0.3%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "5c9ba6a8644fcf93bd43d8bc1e0c18b1b31c915f2de08bc9efec8839976d67de30e005703fef757877c252bbe097501f1301cbf0ad2f2fd7762d36e1e69d25a9"
+
+[update]
+[update.modrinth]
+mod-id = "PJvJUdGw"
+version = "zltYV03a"

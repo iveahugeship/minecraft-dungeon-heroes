@@ -1,0 +1,13 @@
+name = "McAlive:Verdant"
+filename = "McAlive_Verdant_V2(Height_animated).zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/ayWLk3oP/versions/uDdwcuR0/McAlive_Verdant_V2%28Height_animated%29.zip"
+hash-format = "sha512"
+hash = "92f697204a42095deb3158d9adeac638b11697ee2137548e0ea29697b7ad3a0d2464c81dbcf4d2e30957569e1812c1cd9b8dba4e9e4f2a8d90bf2d672aca79d5"
+
+[update]
+[update.modrinth]
+mod-id = "ayWLk3oP"
+version = "uDdwcuR0"

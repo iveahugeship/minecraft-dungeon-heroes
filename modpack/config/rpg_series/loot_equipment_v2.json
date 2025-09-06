@@ -1,0 +1,883 @@
+{
+  "injectors": {},
+  "regex_injectors": {
+    "^philipsruins:chest/badlands_dungeon_(loot_high|loot_low)$": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_1_weapons",
+          "filters_lenient": true,
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_1_armors",
+          "filters_lenient": true,
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_1_accessories",
+          "filters_lenient": true,
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_0_weapons",
+          "filters_lenient": true,
+          "weight": 2
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_0_accessories",
+          "filters_lenient": true,
+          "weight": 2
+        }
+      ]
+    },
+    "^betterdungeons:small_dungeon/chests/.*$": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_1_weapons",
+          "filters_lenient": true,
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_1_armors",
+          "filters_lenient": true,
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_1_accessories",
+          "filters_lenient": true,
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_0_weapons",
+          "filters_lenient": true,
+          "weight": 2
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_0_accessories",
+          "filters_lenient": true,
+          "weight": 2
+        }
+      ]
+    },
+
+    "^betterdungeons:(skeleton|zombie)_dungeon/chests/common$": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_2_weapons",
+          "filters_lenient": true,
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_2_armors",
+          "filters_lenient": true,
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_1_weapons",
+          "filters_lenient": true,
+          "weight": 2
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_1_armors",
+          "filters_lenient": true,
+          "weight": 2
+        }
+      ]
+    },
+    "^betterdungeons:(spider|zombie)_dungeon/chests/(egg_room|tombstone)$": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_1_relics",
+          "filters_lenient": false,
+          "filters": ["#overhaul:loot_theme/necromancy"],
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_2_accessories",
+          "filters_lenient": true,
+          "weight": 2,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_1_accessories",
+          "filters_lenient": true,
+          "weight": 3,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        }
+      ]
+    },
+    "^philipsruins:chest/bone_dungeon_loot$": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_1_relics",
+          "filters_lenient": false,
+          "filters": ["#overhaul:loot_theme/necromancy"],
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_2_accessories",
+          "filters_lenient": true,
+          "weight": 2,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_1_accessories",
+          "filters_lenient": true,
+          "weight": 3,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        }
+      ]
+    },
+    "^philipsruins:chest/ocean_ruin_fortress$": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_1_relics",
+          "filters_lenient": false,
+          "filters": ["#overhaul:loot_theme/frost"],
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_2_accessories",
+          "filters_lenient": true,
+          "weight": 2,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_1_accessories",
+          "filters_lenient": true,
+          "weight": 3,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        }
+      ]
+    },
+
+    "^betterdeserttemples:chests/(pharaoh_hidden|tomb_pharaoh)$": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "rpg_series:loot_tier/tier_1_relics",
+          "filters_lenient": false,
+          "filters": [
+            "#overhaul:loot_theme/egypt",
+            "#overhaul:loot_theme/necromancy"
+          ],
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_2_accessories",
+          "filters_lenient": true,
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_1_accessories",
+          "filters_lenient": true,
+          "weight": 2
+        }
+      ]
+    },
+    "^betterjungletemples:chests/(treasure|campsite)$": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "rpg_series:loot_tier/tier_1_relics",
+          "filters_lenient": false,
+          "filters": [
+            "#overhaul:loot_theme/jungle",
+            "#overhaul:loot_theme/necromancy"
+          ],
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_2_accessories",
+          "filters_lenient": true,
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_1_accessories",
+          "filters_lenient": true,
+          "weight": 2
+        }
+      ]
+    },
+
+    "^novastructures:chests/illager_hideout_heart_loot$": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_3_armors",
+          "filters_lenient": false,
+          "filters": [
+            "#overhaul:archetype/wizard_arcane",
+            "#overhaul:archetype/rogue",
+            "#overhaul:archetype/warrior",
+            "#overhaul:archetype/archer"
+          ],
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_3_weapons",
+          "filters_lenient": false,
+          "filters": [
+            "#overhaul:archetype/wizard_arcane",
+            "#overhaul:archetype/rogue",
+            "#overhaul:archetype/warrior",
+            "#overhaul:archetype/archer"
+          ],
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_2_armors",
+          "filters_lenient": false,
+          "filters": [
+            "#overhaul:archetype/wizard_arcane",
+            "#overhaul:archetype/rogue",
+            "#overhaul:archetype/warrior",
+            "#overhaul:archetype/archer"
+          ],
+          "weight": 2,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_2_weapons",
+          "filters_lenient": false,
+          "filters": [
+            "#overhaul:archetype/wizard_arcane",
+            "#overhaul:archetype/rogue",
+            "#overhaul:archetype/warrior",
+            "#overhaul:archetype/archer"
+          ],
+          "weight": 2,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        }
+      ]
+    },
+    "^novastructures:chests/illager_hideout_weaponry$": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_3_weapons",
+          "filters_lenient": false,
+          "filters": [
+            "#overhaul:archetype/wizard_arcane",
+            "#overhaul:archetype/rogue",
+            "#overhaul:archetype/warrior",
+            "#overhaul:archetype/archer"
+          ],
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_3_armors",
+          "filters_lenient": false,
+          "filters": [
+            "#overhaul:archetype/wizard_arcane",
+            "#overhaul:archetype/rogue",
+            "#overhaul:archetype/warrior",
+            "#overhaul:archetype/archer"
+          ],
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_2_weapons",
+          "filters_lenient": false,
+          "filters": [
+            "#overhaul:archetype/wizard_arcane",
+            "#overhaul:archetype/rogue",
+            "#overhaul:archetype/warrior",
+            "#overhaul:archetype/archer"
+          ],
+          "weight": 2,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_2_armors",
+          "filters_lenient": false,
+          "filters": [
+            "#overhaul:archetype/wizard_arcane",
+            "#overhaul:archetype/rogue",
+            "#overhaul:archetype/warrior",
+            "#overhaul:archetype/archer"
+          ],
+          "weight": 2,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        }
+      ]
+    },
+    "^novastructures:chests/illager_hideout_lesser_tresure$": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_2_accessories",
+          "filters_lenient": true,
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        }
+      ]
+    },
+    "^novastructures:chests/pillager_outpost_treasure$": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_3_accessories",
+          "filters_lenient": true,
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_2_accessories",
+          "filters_lenient": true,
+          "weight": 2,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        }
+      ]
+    },
+    "^betteroceanmonuments:chests/upper_side_chamber$": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_3_weapons",
+          "filters_lenient": false,
+          "filters": [
+            "#overhaul:archetype/wizard_frost",
+            "#overhaul:archetype/paladin",
+            "#overhaul:archetype/priest"
+          ],
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_3_armors",
+          "filters_lenient": false,
+          "filters": [
+            "#overhaul:archetype/wizard_frost",
+            "#overhaul:archetype/paladin",
+            "#overhaul:archetype/priest"
+          ],
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_3_accessories",
+          "filters_lenient": true,
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "rpg_series:loot_tier/tier_2_relics",
+          "filters_lenient": false,
+          "filters": [
+            "#overhaul:loot_theme/frost",
+            "#overhaul:loot_theme/common"
+          ],
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_2_weapons",
+          "filters_lenient": false,
+          "filters": [
+            "#overhaul:archetype/wizard_frost",
+            "#overhaul:archetype/paladin",
+            "#overhaul:archetype/priest"
+          ],
+          "weight": 2,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_2_armors",
+          "filters_lenient": false,
+          "filters": [
+            "#overhaul:archetype/wizard_frost",
+            "#overhaul:archetype/paladin",
+            "#overhaul:archetype/priest"
+          ],
+          "weight": 2,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_2_accessories",
+          "filters_lenient": true,
+          "weight": 2,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "rpg_series:loot_tier/tier_1_relics",
+          "filters_lenient": false,
+          "filters": [
+            "#overhaul:loot_theme/frost",
+            "#overhaul:loot_theme/common"
+          ],
+          "weight": 2
+        }
+      ]
+    },
+    "^betterstrongholds:chests/armory$": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_3_weapons",
+          "filters_lenient": false,
+          "filters": [
+            "#overhaul:archetype/wizard_fire",
+            "#overhaul:archetype/priest"
+          ],
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_3_armors",
+          "filters_lenient": false,
+          "filters": [
+            "#overhaul:archetype/wizard_fire",
+            "#overhaul:archetype/priest"
+          ],
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_2_weapons",
+          "filters_lenient": false,
+          "filters": [
+            "#overhaul:archetype/wizard_fire",
+            "#overhaul:archetype/priest"
+          ],
+          "weight": 2,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_2_armors",
+          "filters_lenient": false,
+          "filters": [
+            "#overhaul:archetype/wizard_fire",
+            "#overhaul:archetype/priest"
+          ],
+          "weight": 2,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        }
+      ]
+    },
+    "^betterstrongholds:chests/treasure$": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_3_accessories",
+          "filters_lenient": true,
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_2_accessories",
+          "filters_lenient": true,
+          "weight": 2,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        }
+      ]
+    },
+    "^betterstrongholds:chests/(crypt|prison_lg)$": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_2_relics",
+          "filters_lenient": false,
+          "filters": [
+            "#overhaul:loot_theme/necromancy",
+            "#overhaul:loot_theme/common"
+          ],
+          "weight": 1
+        }
+      ]
+    },
+    "^adventuredungeons:chests/bygone_chest_default(1|2)$": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_3_weapons",
+          "filters_lenient": true,
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_3_armors",
+          "filters_lenient": true,
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_2_relics",
+          "filters_lenient": true,
+          "weight": 1
+        }
+      ]
+    },
+    "^adventuredungeons:chests/murkydungeon/murky_chest_loot$": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_3_weapons",
+          "filters_lenient": true,
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_3_armors",
+          "filters_lenient": true,
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        }
+      ]
+    },
+    "^adventuredungeons:chests/murkydungeon/murky_chest_tomb$": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_3_accessories",
+          "filters_lenient": true,
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        }
+      ]
+    },
+    "^adventuredungeons:chests/murkydungeon/murky_chest_reward$": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_3_relics",
+          "filters_lenient": false,
+          "filters": [
+            "#overhaul:loot_theme/necromancy",
+            "#overhaul:loot_theme/common"
+          ],
+          "weight": 1
+        }
+      ]
+    },
+    "^adventuredungeons:chests/coldlair/coldlair_chest_default1$": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_3_weapons",
+          "filters_lenient": true,
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_3_armors",
+          "filters_lenient": true,
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_3_accessories",
+          "filters_lenient": true,
+          "weight": 1,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        }
+      ]
+    },
+    "^adventuredungeons:chests/coldlair/coldlair_chest_rare1$": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_3_relics",
+          "filters_lenient": false,
+          "filters": [
+            "#overhaul:loot_theme/necromancy",
+            "#overhaul:loot_theme/frost",
+            "#overhaul:loot_theme/common"
+          ],
+          "weight": 1
+        }
+      ]
+    },
+
+    "^minecraft:entities/(witch|illusioner)$": {
+      "rolls": 0.7,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_1_relics",
+          "filters_lenient": false,
+          "filters": ["#overhaul:loot_theme/necromancy"],
+          "weight": 1
+        }
+      ]
+    },
+    "^hopo:entities/frostbitten$": {
+      "rolls": 0.7,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_1_relics",
+          "filters_lenient": false,
+          "filters": ["#overhaul:loot_theme/frost"],
+          "weight": 1
+        }
+      ]
+    },
+    "^hopo:entities/undead_.+_miner$": {
+      "rolls": 0.7,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_1_relics",
+          "filters_lenient": false,
+          "filters": ["#overhaul:loot_theme/common"],
+          "weight": 1
+        }
+      ]
+    },
+    "^hopo:entities/swampy$": {
+      "rolls": 0.7,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_1_relics",
+          "filters_lenient": false,
+          "filters": ["#overhaul:loot_theme/jungle"],
+          "weight": 1
+        }
+      ]
+    },
+    "^hopo:entities/burned$": {
+      "rolls": 0.7,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_1_relics",
+          "filters_lenient": false,
+          "filters": [
+            "#overhaul:loot_theme/jungle",
+            "#overhaul:loot_theme/egypt"
+          ],
+          "weight": 1
+        }
+      ]
+    },
+    "^hopo:entities/glacial_hunter$": {
+      "rolls": 0.7,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_1_relics",
+          "filters_lenient": false,
+          "filters": ["#overhaul:loot_theme/frost"],
+          "weight": 1
+        }
+      ]
+    },
+    "^hopo:entities/mummy$": {
+      "rolls": 0.7,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_1_relics",
+          "filters_lenient": false,
+          "filters": ["#overhaul:loot_theme/egypt"],
+          "weight": 1
+        }
+      ]
+    },
+    "^hopo:entities/dead_beard$": {
+      "rolls": 0.7,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_1_relics",
+          "filters_lenient": false,
+          "filters": ["#overhaul:loot_theme/common"],
+          "weight": 1
+        }
+      ]
+    },
+    "^hopo:entities/immortal$": {
+      "rolls": 0.7,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_1_relics",
+          "filters_lenient": false,
+          "filters": ["#overhaul:loot_theme/frost"],
+          "weight": 1
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+name = "Pufferfish's Biome Dither"
+filename = "puffish_biome_dither-0.1.1-1.21-fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/xlybdB0E/versions/4q42a3X9/puffish_biome_dither-0.1.1-1.21-fabric.jar"
+hash-format = "sha512"
+hash = "18b33cdec90c247a52d065c489ee5acb444c29f601e115468eceea1836aef15988fab509e6b8e1e2315f3ae9bf23793055ca30fb533e115f4798500d3c7f6484"
+
+[update]
+[update.modrinth]
+mod-id = "xlybdB0E"
+version = "4q42a3X9"

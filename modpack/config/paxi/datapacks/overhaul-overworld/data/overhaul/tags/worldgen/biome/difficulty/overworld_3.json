@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "vanillabackport:pale_garden",
+
+    "minecraft:ice_spikes",
+    "minecraft:frozen_peaks",
+    "minecraft:jagged_peaks",
+
+    "minecraft:deep_cold_ocean",
+    "minecraft:deep_frozen_ocean",
+    "minecraft:deep_lukewarm_ocean",
+
+    "yungscavebiomes:frosted_caves",
+    "yungscavebiomes:lost_caves",
+    "minecraft:lush_caves",
+    "minecraft:dripstone_caves"
+  ]
+}

@@ -1,0 +1,13 @@
+name = "Ashen Custom Mobs x Fresh Animations"
+filename = "Ashen_Custom_Mobs_x_Fresh_Animations.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/rpaqVyiI/versions/iuyrtcku/Ashen_Custom_Mobs_x_Fresh_Animations.zip"
+hash-format = "sha512"
+hash = "2f5fe222f6088602932068d13aa8d54392687a27e6cfda7ca3e9781a1866d767e82b64936aa731a6e99e72e2be67c0342970ac995eba000bfcf3af7fc6a72f4c"
+
+[update]
+[update.modrinth]
+mod-id = "rpaqVyiI"
+version = "iuyrtcku"

@@ -1,0 +1,13 @@
+name = "Ashen 16x"
+filename = "Ashen_16x.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/LSmohupN/versions/Bki3Fiae/Ashen_16x.zip"
+hash-format = "sha512"
+hash = "6c4bc007aa2db54a6e9bede16323b15c962c94436f60d23caf97a9c28f062803adbb25b9f5495ac1c81eeb55c7351a6fd02161566b8f6e092cb522f6943ba230"
+
+[update]
+[update.modrinth]
+mod-id = "LSmohupN"
+version = "Bki3Fiae"

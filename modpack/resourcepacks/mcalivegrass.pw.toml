@@ -1,0 +1,13 @@
+name = "McAlive:Grass"
+filename = "McAlive_Grass_v2(Height).zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/lhBfbXHT/versions/wD5bwSTp/McAlive_Grass_v2%28Height%29.zip"
+hash-format = "sha512"
+hash = "86bd5e0e1e40292bbcc85c05b2d8b215b51ceddca99e46753ad4d535a2e0f5e37be7b0767162c47a41f0bf7622e12286c62e83c5cec47773e13ce824d69a806e"
+
+[update]
+[update.modrinth]
+mod-id = "lhBfbXHT"
+version = "wD5bwSTp"

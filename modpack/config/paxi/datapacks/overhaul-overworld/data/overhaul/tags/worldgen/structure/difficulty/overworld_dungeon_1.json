@@ -1,0 +1,36 @@
+{
+  "values": [
+    "philipsruins:ancient_dungeon",
+    "philipsruins:badlands_start_dungeon",
+    "philipsruins:badlands_structures",
+    "betterdungeons:small_dungeon",
+
+    "ctov:pillager_outpost_beach",
+    "ctov:pillager_outpost_plains",
+    "ctov:pillager_outpost_jungle",
+    "ctov:pillager_outpost_mesa",
+    "ctov:pillager_outpost_badlands",
+    "ctov:pillager_outpost_mountain",
+    "ctov:pillager_outpost_swamp",
+    "ctov:pillager_outpost_taiga",
+    "ctov:pillager_outpost_desert",
+    "ctov:pillager_outpost_savanna",
+    "ctov:pillager_outpost_snowy",
+    "ctov:pillager_outpost_dark_forest",
+
+    "hopo:mineshaft/jungle_mineshaft",
+    "hopo:mineshaft/deepslate_mineshaft",
+    "hopo:mineshaft/mangrove_mineshaft",
+    "hopo:mineshaft/spruce_mineshaft",
+    "hopo:mineshaft/acacia_mineshaft",
+    "hopo:mineshaft/birch_mineshaft",
+    "hopo:mineshaft/cherry_mineshaft",
+    "hopo:mineshaft/bamboo_mineshaft",
+    "hopo:mineshaft/dark_oak_mineshaft",
+    "hopo:mineshaft/mud_mineshaft",
+    "hopo:mineshaft/oak_mineshaft",
+    "hopo:mineshaft/stone_mineshaft",
+    "hopo:mineshaft/biomes/dripstone_mineshaft",
+    "hopo:mineshaft/biomes/lush_mineshaft"
+  ]
+}

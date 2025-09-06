@@ -1,0 +1,12 @@
+{
+  "values": [
+    "betterdungeons:skeleton_dungeon",
+    "betterdungeons:zombie_dungeon",
+    "betterdungeons:spider_dungeon",
+    "philipsruins:ocean_fortress",
+    "philipsruins:bone_dungeon",
+
+    "betterdeserttemples:desert_temple",
+    "betterjungletemples:jungle_temple"
+  ]
+}

@@ -1,0 +1,13 @@
+name = "McAlive:Leaves"
+filename = "McAlive_Leaves(height).zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/A0nWCG0X/versions/zW1fazBS/McAlive_Leaves%28height%29.zip"
+hash-format = "sha512"
+hash = "08ef6d0052c865486f611d35631a66b79097e4e36eb0d8190d3d8d8b19df93e1113674387cff6004dbf5d6a7e8333485b59a0dbf8a6f9eb096d9e0c6958b00cc"
+
+[update]
+[update.modrinth]
+mod-id = "A0nWCG0X"
+version = "zW1fazBS"

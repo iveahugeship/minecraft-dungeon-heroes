@@ -1,0 +1,47 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:snowy_taiga",
+    "minecraft:snowy_plains",
+    "minecraft:snowy_slopes",
+    "minecraft:snowy_beach",
+
+    "minecraft:taiga",
+    "minecraft:dark_forest",
+    "minecraft:grove",
+    "blooming_biosphere:rainforest",
+    "blooming_biosphere:oak_woodland",
+    "blooming_biosphere:autumnal_forest",
+    "blooming_biosphere:snowy_cherry_grove",
+    "blooming_biosphere:chaparral",
+    "minecraft:old_growth_pine_taiga",
+    "minecraft:old_growth_birch_forest",
+    "minecraft:old_growth_spruce_taiga",
+
+    "minecraft:swamp",
+    "minecraft:mangrove_swamp",
+    "blooming_biosphere:marsh",
+
+    "minecraft:jungle",
+    "minecraft:bamboo_jungle",
+    "minecraft:sparse_jungle",
+
+    "minecraft:badlands",
+    "minecraft:wooded_badlands",
+    "minecraft:eroded_badlands",
+    "minecraft:desert",
+    "minecraft:savanna",
+    "minecraft:savanna_plateau",
+
+    "minecraft:windswept_hills",
+    "minecraft:windswept_forest",
+    "minecraft:windswept_savanna",
+    "minecraft:windswept_gravelly_hills",
+    "minecraft:stony_peaks",
+    "minecraft:stony_shore",
+
+    "minecraft:frozen_river",
+    "minecraft:cold_ocean",
+    "minecraft:frozen_ocean"
+  ]
+}
