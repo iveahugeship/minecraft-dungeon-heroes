@@ -1,0 +1,13 @@
+name = "Kev's Attributes Panel"
+filename = "kevs-attributes-panel-1.1.5.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/1hQgsACh/versions/HaJNehFm/kevs-attributes-panel-1.1.5.7.jar"
+hash-format = "sha512"
+hash = "0c76f5e8524604008b6639661a2dc66826a1d72c384418cf88ff4a1cdfe7afdf9ff47b4bc6bbd6f1ea35a7cec2c7bd49c13d51a75c328496b6a50ef391473455"
+
+[update]
+[update.modrinth]
+mod-id = "1hQgsACh"
+version = "HaJNehFm"

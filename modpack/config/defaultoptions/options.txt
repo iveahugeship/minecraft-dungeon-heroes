@@ -6,7 +6,7 @@ entityDistanceScaling:1.0
 entityShadows:true
 forceUnicodeFont:false
 japaneseGlyphVariants:false
-fov:0.0
+fov:0.5
 fovEffectScale:1.0
 darknessEffectScale:1.0
 glintSpeed:0.5
@@ -15,7 +15,7 @@ prioritizeChunkUpdates:0
 fullscreen:true
 gamma:0.5
 graphicsMode:1
-guiScale:0
+guiScale:4
 maxFps:120
 mipmapLevels:4
 narrator:0
@@ -48,8 +48,8 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","fabric","file/§eBoss §9Crosshair [1.21].zip","file/§a§lVocal Villagers §r§71.2.zip","file/FreshAnimations_v1.10.1.zip","file/Ashen_16x.zip","file/Ashen_Custom_Mobs.zip","file/Ashen_Custom_Mobs_x_Fresh_Animations.zip","file/Simple Grass Flowers v1.9.5.zip","file/Fancy Crops v1.2.zip","file/McAlive_Grass_v2(Height).zip","file/McAlive_LeafyLeaves(height).zip","file/McAlive_Leaves(height).zip","file/McAlive_Verdant_V2(Height_animated).zip","file/animated-items-1_21-1 - 1_4_2.zip","file/Visual Effects+.zip","file/DetailedAnimationsReworked - V1.15.zip"]
-incompatibleResourcePacks:["adventuredungeons","asyncparticles","badoptimizations","balm","bettervillage","bookshelf","defaultoptions","draggable_lists","enchdesc","entity_model_features","entity_texture_features","ghosts","immersiveui","konkrete","modernfix","mr_blooming_biosphere","mr_dungeons_andtavernswoodlandmansionreplacement","subtle_effects","tectonic","terrablender","yet_another_config_lib_v3"]
+resourcePacks:["vanilla","fabric","file/§eBoss §9Crosshair [1.21].zip","file/§a§lVocal Villagers §r§71.2.zip","file/FreshAnimations_v1.10.1.zip","file/Ashen_16x.zip","file/Ashen_Custom_Mobs.zip","file/Ashen_Custom_Mobs_x_Fresh_Animations.zip","file/Simple Grass Flowers v1.9.5.zip","file/Fancy Crops v1.2.zip","file/McAlive_Grass_v2(Height).zip","file/McAlive_LeafyLeaves(height).zip","file/McAlive_Leaves(height).zip","file/McAlive_Verdant_V2(Height_animated).zip","file/animated-items-1_21-1 - 1_4_2.zip","file/RPG_Series_Icons-1.2+1.21.1.zip","file/Visual Effects+.zip","file/DetailedAnimationsReworked - V1.15.zip"]
+incompatibleResourcePacks:["adventuredungeons","asyncparticles","badoptimizations","balm","betterclouds","bettervillage","bookshelf","defaultoptions","draggable_lists","enchdesc","entity_model_features","entity_texture_features","ghosts","immersiveui","konkrete","modernfix","mr_blooming_biosphere","mr_dungeons_andtavernswoodlandmansionreplacement","subtle_effects","tectonic","terrablender","yet_another_config_lib_v3"]
 lastServer:
 lang:en_us
 chatVisibility:0

@@ -1,0 +1,13 @@
+name = "Icon Leading Tooltip"
+filename = "icon-leading-tooltip-1.0.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Fkf6XJDM/versions/dnRSQDEo/icon-leading-tooltip-1.0.2.jar"
+hash-format = "sha512"
+hash = "48220f34ff3b83b125304f2bbb84c564d5c40c95b5be602029b3343cd7e6ed68e8b9130d3c094ce3b22efb9562e749b45ed22924d67ca21b3b15eeef0bc3e0b1"
+
+[update]
+[update.modrinth]
+mod-id = "Fkf6XJDM"
+version = "dnRSQDEo"

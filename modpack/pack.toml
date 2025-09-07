@@ -1,12 +1,12 @@
 name = "dungeon-heroes"
 author = "iveahugeship"
-version = "0.1.0"
+version = "0.1.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "158a28e89c28bef4feb76c7c609ac546c5304540e4641eda34e39bc391f8b30d"
+hash = "0c500e1058d9294605f41fa77a49707826fa3cd2cc333ce589af38c04027d76a"
 
 [versions]
 fabric = "0.17.2"

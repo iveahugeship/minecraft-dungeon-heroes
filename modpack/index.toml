@@ -10,11 +10,11 @@ hash = "3b36078d3cdf0821de8078b23cd70d097aa17edd2e40ebfa75ff7bfd4568e132"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "3a6c1d75af0644f777d40fa77803e232a646f9df40997658297fc524c11a34c4"
+hash = "dfe7290419391423b126407a8a14b5b00ea4537ce00bb55975ca0572b78b578b"
 
 [[files]]
 file = "config/dungeon_difficulty/difficulty.json"
-hash = "8afae14cec68b069ef4acd976ce9a8b24d3c68c204bb03dd280c0de042ea186d"
+hash = "5b3e20ae430607e54c974672d34607e5e600d6b3a8615da6104af20c8ea52388"
 
 [[files]]
 file = "config/entity_model_features.json"
@@ -27,10 +27,6 @@ hash = "0554c0e7816266477c65c18d2ada9fdddf1c6750787efd329056223ca4a073b2"
 [[files]]
 file = "config/notenoughanimations.json"
 hash = "9ec01e29abb53f863f7bacfae2a08870508e3119a253fafc599242f7a7f05e39"
-
-[[files]]
-file = "config/paxi/datapack_load_order.json"
-hash = "d0aaf3172f34275479f0669aa5b0a94b85788ae638f3062b948ec49d31c38293"
 
 [[files]]
 file = "config/paxi/datapacks/overhaul-deep-dark/data/overhaul/tags/worldgen/biome/all_biomes.json"
@@ -161,10 +157,6 @@ file = "config/paxi/datapacks/overhaul-overworld/pack.mcmeta"
 hash = "233ba72f59a897f9f2a39fffc18106ad4e12cd524d3f73a4f00a6f6e309ca222"
 
 [[files]]
-file = "config/paxi/resourcepack_load_order.json"
-hash = "d0aaf3172f34275479f0669aa5b0a94b85788ae638f3062b948ec49d31c38293"
-
-[[files]]
 file = "config/rpg_series/loot_equipment_v2.json"
 hash = "f55c21065d6910590279bba0e9fb76efb48495d48c7dbfd3feda5ee638364e0c"
 
@@ -183,6 +175,10 @@ hash = "73190c3597928aa69fe6f50c11379ea71e9146759e975e97f160734aa57efb3d"
 [[files]]
 file = "config/structurify.json"
 hash = "64f78967082eab308d1a6f75fcccf8761a14ae591e034766700270460840e340"
+
+[[files]]
+file = "config/stylisheffects-client.toml"
+hash = "945f5eb9b76f1113d767a3a4e288946f1238253c2185d2c0174e1dc4ac1f5c2a"
 
 [[files]]
 file = "config/villagespawnpoint.json5"
@@ -251,6 +247,11 @@ metafile = true
 [[files]]
 file = "mods/balm.pw.toml"
 hash = "699010afc3867305441c3d5b3bcdf491a7aa3614ad199b0589f368689a68859e"
+metafile = true
+
+[[files]]
+file = "mods/better-clouds.pw.toml"
+hash = "ca64eeb298a047339895d42ad8241293cfbfa901e82a520124a4602180cdda5e"
 metafile = true
 
 [[files]]
@@ -454,16 +455,6 @@ hash = "9fb4d588bd578e2f16a9605ff6303872130b36ccb0fdfff98bd7274da94f91b9"
 metafile = true
 
 [[files]]
-file = "mods/fish-of-thieves.pw.toml"
-hash = "01991d3b032bc81bd832effa41fd20cca0977061d9703419125129d992398516"
-metafile = true
-
-[[files]]
-file = "mods/flow.pw.toml"
-hash = "e3d387cfc56c15f3e885934094e41915537af9a22b75f68aa17987ef30ae4a20"
-metafile = true
-
-[[files]]
 file = "mods/flower-mimics.pw.toml"
 hash = "6a660ca651b2c84f36584a8bde619b439d68119889c0c3be99be9a3bb9c3a712"
 metafile = true
@@ -514,6 +505,11 @@ hash = "c104293981bbfbf0b194c9428e8ec71fd980e80d80050204a83835a01deeecf3"
 metafile = true
 
 [[files]]
+file = "mods/icon-leading-tooltip.pw.toml"
+hash = "217e21f4954a0ba65bc2f9fb9c6cece65c21dd05ed4d326b547d8f9c94d9026e"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "ee4f34cfe8c1eb571d7e4d751b5f7d4a568889469a6412dfea9fe074ccf2ece1"
 metafile = true
@@ -529,8 +525,18 @@ hash = "8e54aa67b2e446ba49f4c0a877a87b9e22a72f61e30e5d9b650f97b5c0f335a4"
 metafile = true
 
 [[files]]
+file = "mods/item-borders.pw.toml"
+hash = "8a8675e1edc03220d8cfd86100b6f2bc83a9a760c8f6164fcdceb223d838ea60"
+metafile = true
+
+[[files]]
 file = "mods/jewelry.pw.toml"
 hash = "cd5fd0f404a25693318411a59bde7051ea672fbc9f94e7358b7940c3023b0d6d"
+metafile = true
+
+[[files]]
+file = "mods/kevs-attributes-panel.pw.toml"
+hash = "7431a5096e68b6d75a805fed511140ce488ffacb13a311dad29157bc94a59bdc"
 metafile = true
 
 [[files]]
@@ -654,6 +660,11 @@ hash = "89113f42aaa1bb566bdc488bc41b9135caf31023faf1e240e1fc1c5a30764f39"
 metafile = true
 
 [[files]]
+file = "mods/pick-up-notifier.pw.toml"
+hash = "af6de4e48064926264441ace0dc8f3193deedd534e2963c25a7700d4dfa6f825"
+metafile = true
+
+[[files]]
 file = "mods/placeholder-api.pw.toml"
 hash = "2e2c1b47b513663871e71c89a699c66ac9fcc97633f007ed064ce4410f220f5a"
 metafile = true
@@ -681,6 +692,11 @@ metafile = true
 [[files]]
 file = "mods/prickle.pw.toml"
 hash = "122659d423e8fe5c47b4121bf382e5ceea0ea2c644cd0a08d577cf58ef55d495"
+metafile = true
+
+[[files]]
+file = "mods/prism-lib.pw.toml"
+hash = "478cf24d75c02422619241c8b79cf938bcf94b220474eef57bcfae17f4816dd9"
 metafile = true
 
 [[files]]
@@ -791,6 +807,11 @@ metafile = true
 [[files]]
 file = "mods/structurify.pw.toml"
 hash = "0e7c79b4762808b94faf6a1af0d247ff1f343975ee1d7ba588092013b0a82bed"
+metafile = true
+
+[[files]]
+file = "mods/stylish-effects.pw.toml"
+hash = "1a8bf7b763283170833b97d6b79bb0d250517668dd5d13054e28d8e9065642d8"
 metafile = true
 
 [[files]]
@@ -946,6 +967,11 @@ metafile = true
 [[files]]
 file = "resourcepacks/ashen.pw.toml"
 hash = "8a8f29836da6128181ace306870336ba8de9e32dad722a0e21ca18f45457a4f7"
+metafile = true
+
+[[files]]
+file = "resourcepacks/attribute-icons-rpg-series.pw.toml"
+hash = "20206aea7e7623e4ba4facbb108bc0ea99c70eb12beb4f2d861883043e90fe88"
 metafile = true
 
 [[files]]

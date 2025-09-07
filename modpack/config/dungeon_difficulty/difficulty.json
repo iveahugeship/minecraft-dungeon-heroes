@@ -69,10 +69,16 @@
           },
           "attributes": [
             {
-              "attribute": "damage",
+              "attribute": "generic.attack_damage",
               "operation": "MULTIPLY_BASE",
               "randomness": 0.0,
-              "value": 0.25
+              "value": 0.1
+            },
+            {
+              "attribute": "generic.max_health",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 1.0
             },
             {
               "attribute": "generic.armor",
@@ -81,10 +87,10 @@
               "value": 1.0
             },
             {
-              "attribute": "generic.max_health",
+              "attribute": "generic.movement_speed",
               "operation": "MULTIPLY_BASE",
-              "randomness": 0.1,
-              "value": 0.25
+              "randomness": 0.0,
+              "value": 0.1
             }
           ],
           "experience_multiplier": 0.2
@@ -109,16 +115,35 @@
             "attitude": "ANY",
             "entity_id_regex": ".*"
           },
-          "attributes": [],
+          "attributes": [
+            {
+              "attribute": "generic.attack_damage",
+              "operation": "MULTIPLY",
+              "randomness": 0.0,
+              "value": 1.5
+            },
+            {
+              "attribute": "generic.max_health",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 2.0
+            },
+            {
+              "attribute": "generic.armor",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 2.0
+            }
+          ],
           "spawners": {
             "spawn_range_multiplier": 0.0,
-            "spawn_count_multiplier": 0.5,
-            "max_nearby_entities_multiplier": 1.0,
+            "spawn_count_multiplier": 0.2,
+            "max_nearby_entities_multiplier": 0.2,
             "min_spawn_delay_multiplier": -0.1,
             "max_spawn_delay_multiplier": -0.1,
             "required_player_range_multiplier": 0.0
           },
-          "experience_multiplier": 0.0
+          "experience_multiplier": 0.1
         }
       ],
       "rewards": {
@@ -133,14 +158,8 @@
               {
                 "attribute": "generic.armor",
                 "operation": "MULTIPLY_BASE",
-                "randomness": 0.0,
-                "value": 0.1
-              },
-              {
-                "attribute": "generic.max_health",
-                "operation": "ADDITION",
-                "randomness": 0.0,
-                "value": 1.0
+                "randomness": 0.05,
+                "value": 0.15
               }
             ]
           }
@@ -157,13 +176,7 @@
                 "attribute": "damage",
                 "operation": "MULTIPLY_BASE",
                 "randomness": 0.05,
-                "value": 0.1
-              },
-              {
-                "attribute": "power",
-                "operation": "MULTIPLY_BASE",
-                "randomness": 0.05,
-                "value": 0.1
+                "value": 0.15
               }
             ]
           }
