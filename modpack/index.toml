@@ -17,8 +17,8 @@ file = "config/defaultoptions/options.txt"
 hash = "dfe7290419391423b126407a8a14b5b00ea4537ce00bb55975ca0572b78b578b"
 
 [[files]]
-file = "config/dungeon_difficulty/difficulty.json"
-hash = "5b3e20ae430607e54c974672d34607e5e600d6b3a8615da6104af20c8ea52388"
+file = "config/dungeon_difficulty/difficulty_v2.json"
+hash = "5b40c9a5ffd24bf6e3d5e0b9a30a37f1d7118012276b521af6a9cf73f06f8c8d"
 
 [[files]]
 file = "config/entity_model_features.json"
@@ -187,6 +187,11 @@ hash = "945f5eb9b76f1113d767a3a4e288946f1238253c2185d2c0174e1dc4ac1f5c2a"
 [[files]]
 file = "config/villagespawnpoint.json5"
 hash = "918527e460fa2e677cc96cd79a3001070ff867ebb733113932de0e0a5f17a9b0"
+
+[[files]]
+file = "mods/advancement-count.pw.toml"
+hash = "28a682383e4034ccf3678bf0679889ef441728b4dd1ad1acaed8821237371e1d"
+metafile = true
 
 [[files]]
 file = "mods/advancement-plaques.pw.toml"
@@ -529,6 +534,11 @@ hash = "8e54aa67b2e446ba49f4c0a877a87b9e22a72f61e30e5d9b650f97b5c0f335a4"
 metafile = true
 
 [[files]]
+file = "mods/immersivethunder.pw.toml"
+hash = "086d8b88627ca2b5eb4457a26a8894d1b0861e7b8e909e461a02b054814914da"
+metafile = true
+
+[[files]]
 file = "mods/item-borders.pw.toml"
 hash = "8a8675e1edc03220d8cfd86100b6f2bc83a9a760c8f6164fcdceb223d838ea60"
 metafile = true
@@ -611,6 +621,11 @@ metafile = true
 [[files]]
 file = "mods/mru.pw.toml"
 hash = "230b1f5cd118accacf41f268e122bd420420d9e5248d43513090804739a832f3"
+metafile = true
+
+[[files]]
+file = "mods/no-resource-pack-warnings.pw.toml"
+hash = "da9ac20bdc1caa50ebec291429638780924e8a5060ec39abe085c7e6182b3a6f"
 metafile = true
 
 [[files]]
@@ -804,6 +819,11 @@ hash = "2173070ce1b70c472567fefc489add3b547aa01e63c84b47649e4a0db91a246a"
 metafile = true
 
 [[files]]
+file = "mods/spyglass-astronomy.pw.toml"
+hash = "b95ce16789bdf41c767f5ee53502626eff959274ddd8a8c811d92a2705f1b561"
+metafile = true
+
+[[files]]
 file = "mods/structure-pool-api.pw.toml"
 hash = "276b981fdbb6b0430b1fa460ef88d910be0c40b7db68ade4c849e9c4fdef26e3"
 metafile = true
@@ -876,6 +896,11 @@ metafile = true
 [[files]]
 file = "mods/unnamed-sea.pw.toml"
 hash = "16886a86cafedc54d44557b7205f4cc7b73d8f3d71216f34094cfb61e1ca85ce"
+metafile = true
+
+[[files]]
+file = "mods/useful-spyglass.pw.toml"
+hash = "554e625193854590947a7d9ed106d2e84eefd062089834c9fd83690949d3ddd1"
 metafile = true
 
 [[files]]
