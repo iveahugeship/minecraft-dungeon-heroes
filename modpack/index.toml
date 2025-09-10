@@ -5,10 +5,6 @@ file = "config/attributespanel.json"
 hash = "6d9d3d62f6abaef86fd9305b496a2f23e636e506d7f58e67c72fc11166d8e300"
 
 [[files]]
-file = "config/biomespawnpoint/spawnbiomes.txt"
-hash = "bc4a60dca6d6d940c4d477b202999d387575949e566ea09ab8f8731b61e242be"
-
-[[files]]
 file = "config/defaultoptions/keybindings.txt"
 hash = "3b36078d3cdf0821de8078b23cd70d097aa17edd2e40ebfa75ff7bfd4568e132"
 
@@ -189,11 +185,6 @@ file = "config/villagespawnpoint.json5"
 hash = "918527e460fa2e677cc96cd79a3001070ff867ebb733113932de0e0a5f17a9b0"
 
 [[files]]
-file = "mods/advancement-count.pw.toml"
-hash = "28a682383e4034ccf3678bf0679889ef441728b4dd1ad1acaed8821237371e1d"
-metafile = true
-
-[[files]]
 file = "mods/advancement-plaques.pw.toml"
 hash = "26085aa8480f728633c0b84a5eb1879f2911993905c425f3596fb2bef0ed94cc"
 metafile = true
@@ -279,11 +270,6 @@ hash = "edcaa00aaff06ba6f8edb51c05b261e85e014991e965647b363dc66f2065ef71"
 metafile = true
 
 [[files]]
-file = "mods/biome-spawn-point.pw.toml"
-hash = "83c08f0fcf1beb813ef9edecd7dedafbd6b19d6636b02fc35cbb3475e23ce7d3"
-metafile = true
-
-[[files]]
 file = "mods/block-runner.pw.toml"
 hash = "57016de5a9b368443b9a672dc24a24548e5ce539fc81c793e53b8adb3ff084d7"
 metafile = true
@@ -306,11 +292,6 @@ metafile = true
 [[files]]
 file = "mods/chat-heads.pw.toml"
 hash = "be29598337af357cd80b5a60d4eb1e06ff50008fe8d9ca0b52d1279be96a785a"
-metafile = true
-
-[[files]]
-file = "mods/chat-impressive-animation.pw.toml"
-hash = "82bf44ab21e8e872d4763c7061b286e20a18bc3965397e1e858346aad7d9dc6b"
 metafile = true
 
 [[files]]
@@ -380,7 +361,7 @@ metafile = true
 
 [[files]]
 file = "mods/default-options.pw.toml"
-hash = "6d1b30b228fc3cc57be30958b2ec40a2e11053fd209a4aff7be71c12fdca3efb"
+hash = "1de54db665694ea24beb090424a4afb3ba72756a02b66430e466046a2e4d1317"
 metafile = true
 
 [[files]]
@@ -461,11 +442,6 @@ metafile = true
 [[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "9fb4d588bd578e2f16a9605ff6303872130b36ccb0fdfff98bd7274da94f91b9"
-metafile = true
-
-[[files]]
-file = "mods/flower-mimics.pw.toml"
-hash = "6a660ca651b2c84f36584a8bde619b439d68119889c0c3be99be9a3bb9c3a712"
 metafile = true
 
 [[files]]
@@ -605,7 +581,7 @@ metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
-hash = "d917697e84a95f857a447d26f94d93169a5a62176c93193cdf80c8d8bc1e280a"
+hash = "dd27444b02535763c3e41b523dfd585a6baadbef797767b70ce4cdaad4e131d9"
 metafile = true
 
 [[files]]
