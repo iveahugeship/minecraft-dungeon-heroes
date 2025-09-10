@@ -1,13 +1,13 @@
 name = "Rogues & Warriors (RPG Series)"
-filename = "rogues-2.5.2+1.21.1.jar"
+filename = "rogues-2.5.3+1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/3MKqoGuP/versions/6g1Bb7GJ/rogues-2.5.2%2B1.21.1.jar"
+url = "https://cdn.modrinth.com/data/3MKqoGuP/versions/zgr4ixT1/rogues-2.5.3%2B1.21.1.jar"
 hash-format = "sha512"
-hash = "3a9ecbb721f12a64ad7d4f05f3c53a81830078454e2efc26993a1baf4b35b5547d2d584e36fc32c1efdd397ed812baa74243b34dfa1667cefb2180c769be5812"
+hash = "62f453b8ca33662b1477444aada34d6fd8fbc502c7536def2312b016159f0ac6b5bf6965f8a7093675a2ad378602c9fcc4dae67e7de45b787e7371fd8a9d80aa"
 
 [update]
 [update.modrinth]
 mod-id = "3MKqoGuP"
-version = "6g1Bb7GJ"
+version = "zgr4ixT1"

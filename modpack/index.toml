@@ -1,8 +1,12 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/attributespanel.json"
+hash = "6d9d3d62f6abaef86fd9305b496a2f23e636e506d7f58e67c72fc11166d8e300"
+
+[[files]]
 file = "config/biomespawnpoint/spawnbiomes.txt"
-hash = "37b56f61be5b1ed63a43693c63f732bc9a32aa305e4d625a3c86c907c95e1769"
+hash = "bc4a60dca6d6d940c4d477b202999d387575949e566ea09ab8f8731b61e242be"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
@@ -206,7 +210,7 @@ metafile = true
 
 [[files]]
 file = "mods/ambientsounds.pw.toml"
-hash = "eb4bb75bcfaab30be58769f473ce369c20b694394a6ead412433b0c27f41d091"
+hash = "a36c16c9f5485a053f0217a8dfde68101a7d374e579b002fc28ed86007bac949"
 metafile = true
 
 [[files]]
@@ -246,7 +250,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "699010afc3867305441c3d5b3bcdf491a7aa3614ad199b0589f368689a68859e"
+hash = "47aaa2693fff2f75cc994e2398a751ae1da4d78f77c979c1f7f8c906a4f32dbf"
 metafile = true
 
 [[files]]
@@ -341,7 +345,7 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "60cbb0f3f3ac58c190df26cfdc3cb412e8b6509d6221960483b58a8ed890f0a9"
+hash = "c6fdec1e830569c8e1ada3414c6802d4f2ebfd1221bdcaa6eb9618cdb70dff50"
 metafile = true
 
 [[files]]
@@ -351,7 +355,7 @@ metafile = true
 
 [[files]]
 file = "mods/critters-and-companions.pw.toml"
-hash = "7739bdf2043bb4905a52c1832f906cc0d85806901d9ea1b8769bbb70145e2f48"
+hash = "ad3fa76eebbbfa31d13dca823bb41dc834ab3d64f6b1c35942a0dd3ab5af9956"
 metafile = true
 
 [[files]]
@@ -371,7 +375,7 @@ metafile = true
 
 [[files]]
 file = "mods/default-options.pw.toml"
-hash = "28c449d4ceafd79043f9c6e02f408e9f67e59e3e7259ba37a9bc1321a55efe04"
+hash = "6d1b30b228fc3cc57be30958b2ec40a2e11053fd209a4aff7be71c12fdca3efb"
 metafile = true
 
 [[files]]
@@ -381,7 +385,7 @@ metafile = true
 
 [[files]]
 file = "mods/dungeon-difficulty.pw.toml"
-hash = "674d6e1ef3709f5ef17a3fafd9066d10e7729f17aedbcd88c75542305ed826f0"
+hash = "84dd520d9c372ad916340fd9be9da9f4e62d6e00b427bc427b7e28b14ff2f3bf"
 metafile = true
 
 [[files]]
@@ -401,7 +405,7 @@ metafile = true
 
 [[files]]
 file = "mods/effectual.pw.toml"
-hash = "f85eda9b5366089f4d5f3c58fb73b8eb6ad2d9263ec123ee30c6cc913cfa90f6"
+hash = "d7710dc9a6997414e4da07d540d37a2598a64c4bcd8a7ff23864921002909704"
 metafile = true
 
 [[files]]
@@ -631,7 +635,7 @@ metafile = true
 
 [[files]]
 file = "mods/paladins-and-priests.pw.toml"
-hash = "d3185028de0e0d49dd17810639c5ce2d8e31d7cad0ece84c116ad5be65a9571e"
+hash = "48730104399728296e631643b87b8aae7981014d614675249200e3dc20d4a327"
 metafile = true
 
 [[files]]
@@ -681,7 +685,7 @@ metafile = true
 
 [[files]]
 file = "mods/polytone.pw.toml"
-hash = "a53a26c43b3f96f957f0c9f2488ee58cf981ec229bdee040c419932ba273708e"
+hash = "808b33fe22c38b76ce8b566934e458c7add287ecd8121600d64deeab57459eb2"
 metafile = true
 
 [[files]]
@@ -711,7 +715,7 @@ metafile = true
 
 [[files]]
 file = "mods/relics-rpg.pw.toml"
-hash = "f434b5a0597b4040166ccfc7b9d015ee5e6f02f01b2a2a5fa64734bd27591a73"
+hash = "df3d06a2ab19130f8286c64704d5b7757d6800e0858094d007b3b759a0c3c32a"
 metafile = true
 
 [[files]]
@@ -736,7 +740,7 @@ metafile = true
 
 [[files]]
 file = "mods/rogues-and-warriors.pw.toml"
-hash = "ba53b9a7f528ee9e146495eeb2c1d5748240193ef95f141e859a886182dd7105"
+hash = "3ad9a23efea87c7788ee1da5adb38169db75abb838d80324ffa79e43fef9b9b9"
 metafile = true
 
 [[files]]
@@ -756,7 +760,7 @@ metafile = true
 
 [[files]]
 file = "mods/shoulder-surfing-reloaded.pw.toml"
-hash = "5407dabfa5dfd544dc327d1d43aee78cd65554230045fc4fdd1be1867056bacb"
+hash = "fbe769520de4dbe299eb3c11a878793ba26461d07e754cadfe4e3435da812215"
 metafile = true
 
 [[files]]
@@ -791,12 +795,12 @@ metafile = true
 
 [[files]]
 file = "mods/spell-engine.pw.toml"
-hash = "68f4981710b4158da7d2b3b90c2e57176b44e91c9b76dd565dc0764f6f3803e4"
+hash = "3fa223bb3605827caa5c5fd0346f1ada32e5a04bfa96ba0e47e192812ae136fb"
 metafile = true
 
 [[files]]
 file = "mods/spell-power.pw.toml"
-hash = "a104f0d07b6b648ea80d3ddefd6857f8f97359f4c3e9c603880b9ba149ef2e55"
+hash = "2173070ce1b70c472567fefc489add3b547aa01e63c84b47649e4a0db91a246a"
 metafile = true
 
 [[files]]
@@ -886,7 +890,7 @@ metafile = true
 
 [[files]]
 file = "mods/village-taverns.pw.toml"
-hash = "dae323ffeb447de23bd2ec3d4e75bc957320257d17464a671023cee0346495fa"
+hash = "89d1fcd82e21e394bbfbd93049631b1f880f57fa7398317f4792671b692f02ee"
 metafile = true
 
 [[files]]
@@ -901,7 +905,7 @@ metafile = true
 
 [[files]]
 file = "mods/wizards.pw.toml"
-hash = "de6dab800955d395ac8c4a9a50c9b86148004806e80317e5b34467adb5f697d1"
+hash = "71a309c85904c80dd4d412fd021a816fe87367a1b90494b504600a494f487a6c"
 metafile = true
 
 [[files]]

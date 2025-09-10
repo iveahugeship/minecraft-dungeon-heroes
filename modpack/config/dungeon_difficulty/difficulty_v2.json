@@ -16,7 +16,7 @@
       {
         "entity_matches": {
           "attitude": "ANY",
-          "entity_id_regex": ".*"
+          "type": ".*"
         },
         "attributes": [
           {
@@ -39,33 +39,26 @@
   "difficulty_types": [
     {
       "name": "normal",
+      "allow_loot_scaling": false,
       "entities": [
         {
           "entity_matches": {
             "attitude": "ANY",
-            "entity_id_regex": ".*"
+            "type": ".*"
           },
           "attributes": [],
           "experience_multiplier": 0.0
         }
-      ],
-      "rewards": {
-        "armor": [],
-        "weapons": [],
-        "smithing_upgrade": {
-          "enabled": true,
-          "add_upon_upgrade": -1,
-          "multiply_upon_upgrade": 1.0
-        }
-      }
+      ]
     },
     {
       "name": "adventure",
+      "allow_loot_scaling": false,
       "entities": [
         {
           "entity_matches": {
             "attitude": "ANY",
-            "entity_id_regex": ".*"
+            "type": ".*"
           },
           "attributes": [
             {
@@ -95,25 +88,17 @@
           ],
           "experience_multiplier": 0.2
         }
-      ],
-      "rewards": {
-        "armor": [],
-        "weapons": [],
-        "smithing_upgrade": {
-          "enabled": true,
-          "add_upon_upgrade": -1,
-          "multiply_upon_upgrade": 1.0
-        }
-      }
+      ]
     },
     {
       "name": "dungeon",
       "parent": "adventure",
+      "allow_loot_scaling": true,
       "entities": [
         {
           "entity_matches": {
             "attitude": "ANY",
-            "entity_id_regex": ".*"
+            "type": ".*"
           },
           "attributes": [
             {
@@ -145,57 +130,17 @@
           },
           "experience_multiplier": 0.1
         }
-      ],
-      "rewards": {
-        "armor": [
-          {
-            "item_matches": {
-              "item_id_regex": ".*",
-              "loot_table_regex": ".*",
-              "rarity_regex": ".*"
-            },
-            "attributes": [
-              {
-                "attribute": "generic.armor",
-                "operation": "MULTIPLY_BASE",
-                "randomness": 0.05,
-                "value": 0.15
-              }
-            ]
-          }
-        ],
-        "weapons": [
-          {
-            "item_matches": {
-              "item_id_regex": ".*",
-              "loot_table_regex": ".*",
-              "rarity_regex": ".*"
-            },
-            "attributes": [
-              {
-                "attribute": "damage",
-                "operation": "MULTIPLY_BASE",
-                "randomness": 0.05,
-                "value": 0.15
-              }
-            ]
-          }
-        ],
-        "smithing_upgrade": {
-          "enabled": true,
-          "add_upon_upgrade": -1,
-          "multiply_upon_upgrade": 1.0
-        }
-      }
+      ]
     },
     {
       "name": "heroic",
       "parent": "dungeon",
+      "allow_loot_scaling": true,
       "entities": [
         {
           "entity_matches": {
             "attitude": "ANY",
-            "entity_id_regex": ".*"
+            "type": ".*"
           },
           "attributes": [],
           "spawners": {
@@ -208,69 +153,17 @@
           },
           "experience_multiplier": 0.0
         }
-      ],
-      "rewards": {
-        "armor": [
-          {
-            "item_matches": {
-              "item_id_regex": ".*",
-              "loot_table_regex": ".*",
-              "rarity_regex": ".*"
-            },
-            "attributes": [
-              {
-                "attribute": "generic.armor",
-                "operation": "MULTIPLY_BASE",
-                "randomness": 0.0,
-                "value": 0.1
-              },
-              {
-                "attribute": "generic.max_health",
-                "operation": "ADDITION",
-                "randomness": 0.0,
-                "value": 1.0
-              }
-            ]
-          }
-        ],
-        "weapons": [
-          {
-            "item_matches": {
-              "item_id_regex": ".*",
-              "loot_table_regex": ".*",
-              "rarity_regex": ".*"
-            },
-            "attributes": [
-              {
-                "attribute": "damage",
-                "operation": "MULTIPLY_BASE",
-                "randomness": 0.05,
-                "value": 0.1
-              },
-              {
-                "attribute": "power",
-                "operation": "MULTIPLY_BASE",
-                "randomness": 0.05,
-                "value": 0.1
-              }
-            ]
-          }
-        ],
-        "smithing_upgrade": {
-          "enabled": true,
-          "add_upon_upgrade": -1,
-          "multiply_upon_upgrade": 1.0
-        }
-      }
+      ]
     },
     {
       "name": "mythic",
       "parent": "heroic",
+      "allow_loot_scaling": true,
       "entities": [
         {
           "entity_matches": {
             "attitude": "ANY",
-            "entity_id_regex": ".*"
+            "type": ".*"
           },
           "attributes": [],
           "spawners": {
@@ -283,69 +176,17 @@
           },
           "experience_multiplier": 0.0
         }
-      ],
-      "rewards": {
-        "armor": [
-          {
-            "item_matches": {
-              "item_id_regex": ".*",
-              "loot_table_regex": ".*",
-              "rarity_regex": ".*"
-            },
-            "attributes": [
-              {
-                "attribute": "generic.armor",
-                "operation": "MULTIPLY_BASE",
-                "randomness": 0.0,
-                "value": 0.1
-              },
-              {
-                "attribute": "generic.max_health",
-                "operation": "ADDITION",
-                "randomness": 0.0,
-                "value": 1.0
-              }
-            ]
-          }
-        ],
-        "weapons": [
-          {
-            "item_matches": {
-              "item_id_regex": ".*",
-              "loot_table_regex": ".*",
-              "rarity_regex": ".*"
-            },
-            "attributes": [
-              {
-                "attribute": "damage",
-                "operation": "MULTIPLY_BASE",
-                "randomness": 0.05,
-                "value": 0.1
-              },
-              {
-                "attribute": "power",
-                "operation": "MULTIPLY_BASE",
-                "randomness": 0.05,
-                "value": 0.1
-              }
-            ]
-          }
-        ],
-        "smithing_upgrade": {
-          "enabled": true,
-          "add_upon_upgrade": -1,
-          "multiply_upon_upgrade": 1.0
-        }
-      }
+      ]
     },
     {
       "name": "apocalypse",
       "parent": "mythic",
+      "allow_loot_scaling": true,
       "entities": [
         {
           "entity_matches": {
             "attitude": "ANY",
-            "entity_id_regex": ".*"
+            "type": ".*"
           },
           "attributes": [],
           "spawners": {
@@ -358,66 +199,54 @@
           },
           "experience_multiplier": 0.0
         }
-      ],
-      "rewards": {
-        "armor": [
-          {
-            "item_matches": {
-              "item_id_regex": ".*",
-              "loot_table_regex": ".*",
-              "rarity_regex": ".*"
-            },
-            "attributes": [
-              {
-                "attribute": "generic.armor",
-                "operation": "MULTIPLY_BASE",
-                "randomness": 0.0,
-                "value": 0.1
-              },
-              {
-                "attribute": "generic.max_health",
-                "operation": "ADDITION",
-                "randomness": 0.0,
-                "value": 1.0
-              }
-            ]
-          }
-        ],
-        "weapons": [
-          {
-            "item_matches": {
-              "item_id_regex": ".*",
-              "loot_table_regex": ".*",
-              "rarity_regex": ".*"
-            },
-            "attributes": [
-              {
-                "attribute": "damage",
-                "operation": "MULTIPLY_BASE",
-                "randomness": 0.05,
-                "value": 0.1
-              },
-              {
-                "attribute": "power",
-                "operation": "MULTIPLY_BASE",
-                "randomness": 0.05,
-                "value": 0.1
-              }
-            ]
-          }
-        ],
-        "smithing_upgrade": {
-          "enabled": true,
-          "add_upon_upgrade": -1,
-          "multiply_upon_upgrade": 1.0
-        }
-      }
+      ]
     }
   ],
+  "loot_scaling": {
+    "armor": [
+      {
+        "item_matches": {
+          "id": "",
+          "loot_table_regex": "",
+          "rarity_regex": ""
+        },
+        "attributes": [
+          {
+            "attribute": "generic.armor",
+            "operation": "MULTIPLY_BASE",
+            "randomness": 0.05,
+            "value": 0.15
+          }
+        ]
+      }
+    ],
+    "weapons": [
+      {
+        "item_matches": {
+          "id": "",
+          "loot_table_regex": "",
+          "rarity_regex": ""
+        },
+        "attributes": [
+          {
+            "attribute": "damage",
+            "operation": "MULTIPLY_BASE",
+            "randomness": 0.05,
+            "value": 0.15
+          }
+        ]
+      }
+    ],
+    "smithing_upgrade": {
+      "enabled": true,
+      "add_upon_upgrade": -1,
+      "multiply_upon_upgrade": 1.0
+    }
+  },
   "dimensions": [
     {
       "world_matches": {
-        "dimension_regex": "minecraft:overworld"
+        "dimension": "minecraft:overworld"
       },
       "difficulty": {
         "name": "normal",
@@ -558,7 +387,7 @@
     },
     {
       "world_matches": {
-        "dimension_regex": "minecraft:nether"
+        "dimension": "minecraft:nether"
       },
       "difficulty": {
         "name": "apocalypse",
@@ -569,7 +398,7 @@
     },
     {
       "world_matches": {
-        "dimension_regex": "minecraft:the_end"
+        "dimension": "minecraft:the_end"
       },
       "difficulty": {
         "name": "apocalypse",
