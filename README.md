@@ -1,3 +1,3 @@
-# Tales Craft
+# TalesCrafters
 
 WIP
