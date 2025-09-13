@@ -2,10 +2,10 @@
   "config_version": "1.0.21",
   "config_datetime": "2025-09-06_22-31-01",
   "general": {
-    "min_structure_distance_from_world_center": 1024,
+    "min_structure_distance_from_world_center": 512,
     "disable_all_structures": false,
     "enable_global_spacing_and_separation_modifier": true,
-    "global_spacing_and_separation_modifier": 2.5
+    "global_spacing_and_separation_modifier": 1.0
   },
   "structures": [
     {
@@ -17,11 +17,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 0,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -34,11 +30,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 0,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -51,11 +43,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 0,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -68,11 +56,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 127,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -85,11 +69,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 0,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -102,11 +82,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 0,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -119,11 +95,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 0,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -136,11 +108,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 0,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -153,11 +121,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 0,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -170,11 +134,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -187,11 +147,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 0,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -204,11 +160,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 0,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -221,11 +173,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 0,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -238,11 +186,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 0,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -255,11 +199,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 0,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -272,11 +212,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 0,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -289,11 +225,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 0,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -306,11 +238,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 0,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -323,11 +251,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 0,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -340,11 +264,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 116,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -357,11 +277,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -374,11 +290,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -391,11 +303,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -408,11 +316,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -425,11 +329,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -442,11 +342,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -459,11 +355,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -476,11 +368,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -493,11 +381,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -510,11 +394,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -527,11 +407,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -544,11 +420,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -561,11 +433,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -578,11 +446,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -595,11 +459,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -612,11 +472,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -629,11 +485,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -646,11 +498,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -663,11 +511,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -680,11 +524,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -697,11 +537,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -714,11 +550,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -731,11 +563,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -748,11 +576,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -765,11 +589,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -782,11 +602,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -799,11 +615,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -816,11 +628,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -833,11 +641,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -850,11 +654,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -867,11 +667,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -884,11 +680,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -901,11 +693,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 100,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -918,11 +706,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -935,11 +719,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -952,11 +732,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 100,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -969,11 +745,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -986,11 +758,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 2,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -1003,11 +771,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 100,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -1020,11 +784,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 100,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -1037,11 +797,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -1054,11 +810,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -1071,11 +823,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -1088,11 +836,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -1105,11 +849,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -1122,11 +862,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -1139,11 +875,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -1156,11 +888,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -1173,11 +901,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -1190,11 +914,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -1207,11 +927,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -1224,11 +940,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     },
@@ -1241,11 +953,7 @@
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "biome_check_mode": "BLACKLIST",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": ["#is_river", "#is_ocean", "#is_beach"],
       "whitelisted_biomes": [],
       "blacklisted_biomes": []
     }

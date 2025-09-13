@@ -14,7 +14,7 @@ hash = "dfe7290419391423b126407a8a14b5b00ea4537ce00bb55975ca0572b78b578b"
 
 [[files]]
 file = "config/dungeon_difficulty/difficulty_v2.json"
-hash = "5b40c9a5ffd24bf6e3d5e0b9a30a37f1d7118012276b521af6a9cf73f06f8c8d"
+hash = "8d10f4e52bc64c0490452ebd17ce02c5b10d31f117da890284c4056026445c74"
 
 [[files]]
 file = "config/entity_model_features.json"
@@ -158,11 +158,11 @@ hash = "233ba72f59a897f9f2a39fffc18106ad4e12cd524d3f73a4f00a6f6e309ca222"
 
 [[files]]
 file = "config/rpg_series/loot_equipment_v2.json"
-hash = "f55c21065d6910590279bba0e9fb76efb48495d48c7dbfd3feda5ee638364e0c"
+hash = "c6feecfdfcc9943cf57e3ce0ea8894e56c8acfbf1773f18cce3d1aaf2e840920"
 
 [[files]]
 file = "config/rpg_series/loot_scrolls_v1.json"
-hash = "493ee77dbe2f49112e78df4ab8cc0e6cec74155ab98c679d56e0433364278971"
+hash = "58ef8c58ef7b69daa1811e8da75564f3ad54e31f02d99114bbe092f7fc599c62"
 
 [[files]]
 file = "config/rpg_series/tag_cache.json"
@@ -170,11 +170,11 @@ hash = "59f332f0d947f575f98a356f1b638b46c327750d6f9c9f2301505001a9a5e215"
 
 [[files]]
 file = "config/shouldersurfing-client.toml"
-hash = "73190c3597928aa69fe6f50c11379ea71e9146759e975e97f160734aa57efb3d"
+hash = "f94278e7c0aa556f053d06e9552a94ee92e94d39b661b5fdc758eb0d9a9a0c0e"
 
 [[files]]
 file = "config/structurify.json"
-hash = "64f78967082eab308d1a6f75fcccf8761a14ae591e034766700270460840e340"
+hash = "bf4b50175d1eb6422225b3273b921494472768bdbc9c5b931ddd2b3177e2504f"
 
 [[files]]
 file = "config/stylisheffects-client.toml"
@@ -705,6 +705,11 @@ hash = "81c3adbd8bf8a6f8046882c40c20c0e90788523e93295f03ae305aeebf2c68d4"
 metafile = true
 
 [[files]]
+file = "mods/reactive-music.pw.toml"
+hash = "bf8cd714c89667d2653812843f7f2b687edf5cf08279fb4e552c7d4dfa835b83"
+metafile = true
+
+[[files]]
 file = "mods/relics-rpg.pw.toml"
 hash = "df3d06a2ab19130f8286c64704d5b7757d6800e0858094d007b3b759a0c3c32a"
 metafile = true
@@ -847,6 +852,11 @@ metafile = true
 [[files]]
 file = "mods/tidal-waves.pw.toml"
 hash = "c3eeb965a91dc6d3f00e645364faa34fd29f04f8483c78ad40fab98c578bd195"
+metafile = true
+
+[[files]]
+file = "mods/tips.pw.toml"
+hash = "0cbbbed7bbf993ef52887473ed8fa0fef4b977d7c11779ef0bf539e5f49a3693"
 metafile = true
 
 [[files]]

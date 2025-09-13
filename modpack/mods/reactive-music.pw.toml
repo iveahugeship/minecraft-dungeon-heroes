@@ -1,0 +1,13 @@
+name = "Reactive Music"
+filename = "reactivemusic-1.1.0+1.21.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Bqnfeesx/versions/BcLT8B77/reactivemusic-1.1.0%2B1.21.jar"
+hash-format = "sha512"
+hash = "e85ba1572506033a1893a22697a3f48dbb4a013e88e1a392587b31365ecf065c94579918fb8c15bd5d2862fbacf2afbcb4a99707111d259d057baae310ccb397"
+
+[update]
+[update.modrinth]
+mod-id = "Bqnfeesx"
+version = "BcLT8B77"
