@@ -1,12 +1,12 @@
 name = "talescrafters"
 author = "iveahugeship"
-version = "0.1.6"
+version = "0.1.7"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "8352c90ccac43a81bc41eb7415f40adc14bea1f6a0ff1ce25fe4d0b515dd2c6f"
+hash = "35f51e59c0f70f16bb03d5036977f98ae64cea32d3a79e7eae2e21c7bdaefcbd"
 
 [versions]
 fabric = "0.17.2"

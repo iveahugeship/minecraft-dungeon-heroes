@@ -385,11 +385,6 @@ hash = "5f8d7536d3ae4060dda13181800ee05f9f286cd2e489018e75c82a5637610fc6"
 metafile = true
 
 [[files]]
-file = "mods/ecological.pw.toml"
-hash = "e03b054c3eaee786f0aaf2736d41856a95185209dd6ec8bf480fe790874d19ef"
-metafile = true
-
-[[files]]
 file = "mods/ecologics.pw.toml"
 hash = "67b6b6a21d347f0e5d443410325a0cfef4a4e93cd6c2a3a5770b53529b00083d"
 metafile = true
